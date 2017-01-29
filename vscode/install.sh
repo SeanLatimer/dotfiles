@@ -10,16 +10,9 @@ if test "$(which code)"; then
   ln -sf "$DOTFILES/vscode/keybindings.json" "$VSCODE_HOME/User/keybindings.json"
 
   modules="
-    Borke.Puppet
-    DotJoshJohnson.xml
-    EditorConfig.EditorConfig
-    PeterJausovec.vscode-docker
-    WakaTime.vscode-wakatime
-    donjayamanne.python
-    georgewfraser.vscode-javac
-    haaaad.ansible
-    lukehoban.Go
-    rebornix.Ruby
+  EditorConfig.EditorConfig
+  robertohuertasm.vscode-icons
+  kamikillerto.vscode-colorize
   "
   for module in $modules; do
     code --install-extension "$module" || true

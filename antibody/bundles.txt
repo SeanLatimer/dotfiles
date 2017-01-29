@@ -1,4 +1,5 @@
 # note this is alphabetically sorted
+lukechilds/zsh-nvm
 caarlos0/git-add-remote kind:path
 caarlos0/jvm
 caarlos0/ports kind:path
@@ -8,5 +9,4 @@ caarlos0/zsh-mkc
 caarlos0/zsh-open-pr kind:path
 mafredri/zsh-async
 Tarrasch/zsh-bd
-wbinglee/zsh-wakatime
 zsh-users/zsh-completions
